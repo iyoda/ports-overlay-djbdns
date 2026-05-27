@@ -57,7 +57,7 @@ Patches are drawn from established, actively maintained cross-distro sources:
 | PORTNAME | djbdns |
 | PORTVERSION | 1.05 |
 | LICENSE | PD (Public Domain, released 2007-12-28) |
-| MAINTAINER | iyoda@atikoro.net |
+| MAINTAINER | (see Makefile) |
 
 ### Build Options
 
