@@ -1,0 +1,20 @@
+djbdns is a collection of Domain Name System tools created by
+Daniel J. Bernstein, focused on security and reliability.
+
+Primary use case: authoritative DNS serving with tinydns.
+
+Includes:
+  * tinydns: fast, secure authoritative DNS server
+  * tinydns-data: zone data compiler
+  * axfrdns: DNS zone transfer server (optional)
+  * rbldns: real-time blackhole list server
+  * walldns: reverse DNS wall
+  * pickdns: load-balancing DNS server
+  * dnscache: caching recursive resolver (optional, not recommended
+    for new deployments - consider dns/unbound instead)
+  * DNS client utilities: dnsip, dnsname, dnsmx, dnstxt, dnsq, etc.
+
+This port includes IPv6 support (Felix von Leitner's test32 patch),
+security fixes (CVE-2008-4392, CVE-2009-0858, CVE-2012-1191), and
+LP64 portability fixes. Patches are drawn from Gentoo, Debian, pkgsrc,
+and Alpine Linux, all of which actively maintain djbdns packages.

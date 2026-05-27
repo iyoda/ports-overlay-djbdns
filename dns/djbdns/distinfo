@@ -1,0 +1,7 @@
+TIMESTAMP = 1779875388
+SHA256 (djbdns/djbdns-1.05.tar.gz) = 3ccd826a02f3cde39be088e1fc6aed9fd57756b8f970de5dc99fcd2d92536b48
+SIZE (djbdns/djbdns-1.05.tar.gz) = 85648
+SHA256 (djbdns/djbdns-1.05-man-20031023.tar.gz) = ba1c58f14bc928908d8618230f400d73cfe2200ed800a272b63048e3e50be569
+SIZE (djbdns/djbdns-1.05-man-20031023.tar.gz) = 17170
+SHA256 (djbdns/djbdns-1.05-test32.diff.xz) = 5abf0387a8e23dc27bba9f5753f12fd701335799a15e5e529556c4956ea5a620
+SIZE (djbdns/djbdns-1.05-test32.diff.xz) = 31096

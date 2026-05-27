@@ -1,0 +1,5 @@
+[
+{
+  "message": "djbdns has been installed.\n\nTo set up tinydns (authoritative DNS):\n  tinydns-conf tinydns dnslog /var/tinydns <your-ip>\n  cd /var/tinydns/root && edit data && tinydns-data\n  svscanboot  # or add /var/tinydns to your svscan service directory\n\nTo set up dnscache (caching resolver):\n  dnscache-conf dnscache dnslog /var/dnscache <your-ip>\n  NOTE: dnscache lacks DNSSEC validation and modern EDNS0 support.\n  For new deployments, consider dns/unbound instead.\n\ndjbdns services are managed via daemontools (svscan/supervise).\nSee https://cr.yp.to/djbdns.html for documentation.\n"
+}
+]
